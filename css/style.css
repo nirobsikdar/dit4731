@@ -1,0 +1,58 @@
+  * {
+   margin: 0;
+   border: 0;
+   padding: 0;
+   font-family: 'Times New Roman', Times, serif;
+  }
+   body{
+    background-color: green;
+   
+   } 
+    #admin-box{
+      background-color: red;
+ width: 50%;
+ margin:100px auto;
+ text-align: center;
+ padding: 50px;
+ border-radius: 10px 10px  ;
+ color: skyblue;
+
+    }
+    #admin-box h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    }
+     input,label{
+      display: block;
+      width:90%;
+      margin: 5px auto;
+     }
+     label{
+      font-size: 20px;
+      text-transform: capitalize;
+      text-align: left;
+    
+     }
+      input{
+        padding: 10px;
+        border: 1px solid black;
+        font-size: 20px;
+        transition:ease-in-out 0.8s;
+        outline: 0;
+      }
+       input[type="submit"]:hover{
+        background-color: blue;
+        border: 1px solid black;
+        
+       }
+       input ::placeholder{
+        background-color: black;
+       }
+ p{
+   font-size: 20px;
+ }
+p a{
+  color:yellow;
+  text-decoration: none;
+  
